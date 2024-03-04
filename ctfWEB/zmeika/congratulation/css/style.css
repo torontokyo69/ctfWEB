@@ -1,0 +1,140 @@
+/*Обнуление стилей CSS*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+/*
+font-family: 'Source Sans Pro', sans-serif;
+*/
+body{
+   background-color: #272727;
+}
+
+.wrap-container {
+   color: #fff;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+.header-container {
+   display: flex;
+   justify-content: center;
+}
+.header {
+   max-width: 1170px;
+   max-height: 485px;
+   padding-top: 40px;
+   margin: 0 auto;
+}
+.title-head {
+   text-align: center;
+   font-style: italic;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-size: 32px;
+   padding-bottom: 20px;
+}
+.header-main {
+   align-items: center;
+   max-height: 425px;
+   font-weight: 400;
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.header-left {
+   text-align: center;
+   font-weight: 900;
+   font-size: 22px;
+   letter-spacing: 2px;
+   writing-mode: vertical-rl;
+   transform: rotate(-180deg);
+}
+.description{
+   padding-top: 50px;
+   margin: 0 auto;
+   width: 600px;
+   font-size: 20px;
+   display: flex;
+}
+.header-left a{
+   color: #fff;
+   display: block;
+}
+.header-leftimg {
+}
+.header-logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 980px;
+   height: 425px;
+   background: url(../img/header-back.png);
+}
+.header-logotext {
+   width: 870px;
+   height: 277px;
+   background-color: #272727;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header-logosamtext {
+   font-weight: 900;
+   font-size: 100px;
+   text-transform: uppercase;
+   background:url(../img/header-back.png) no-repeat center/cover;
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
+   font-weight:bold;
+}
+.header-right {
+   text-align: center;
+   font-weight: 900;
+   font-size: 22px;
+   letter-spacing: 2px;
+   writing-mode: vertical-lr;
+}
+.header-right:hover:before{
+   content: url(../img/linkhover-head.png);
+}
+.header-right::before{
+   content: url(../img/link-head.png);
+}
+.header-right a{
+   display: block;
+   color: #fff;
+}

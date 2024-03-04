@@ -1,0 +1,26 @@
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+ }
+ 
+ h1 {
+   color: #333;
+ }
+ 
+ #gameCanvas {
+   border: 1px solid #333;
+ }
+ 
+ #message {
+   font-weight: bold;
+   margin-top: 20px;
+ }
+ body {
+   background-image: url(../img/zmeya-zelenyy-fon-minimalizm.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ #gameCanvas {
+   background: linear-gradient(to bottom, #65c7f7, #293d63);
+ }
+ 
